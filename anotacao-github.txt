@@ -100,7 +100,7 @@ git remote add origin https://github.com/alercioborges/curso-php-7.git
 git remote add origin https://github.com/alercioborges/sistema-corp.git
 
 git add --all
-git commit -m "mensagem/comentarop"
+git commit -m "tres de abril"
 git config --global user.name "Alercio Borges"
 git config --global user.email "alercioborges@hotmail.com"
 git pull origin main
