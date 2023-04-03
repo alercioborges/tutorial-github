@@ -84,6 +84,8 @@ git push origin main
 
 /** Trazendos arquivos e pastas e alterações destas do GH para o diretório do PC **/
 
+//Estando no diretório do PC com a estrutura do GH (.git) referente ao repositório do GH,
+//basta dar o comendo
 //"main" ou "master" / diretório do GH
 
 git pull origin main
@@ -95,7 +97,4 @@ Aecolrigh@89
 
 git remote add origin https://github.com/alercioborges/curso-php-7.git
 git config --global user.email "alercioborges@hotmail.com"
-
-teste
-
 
