@@ -1,0 +1,99 @@
+/** Clonando uma pasta de repositório já criado no GH no PC **/
+
+//No diretório do PC onde deseja inserir a pasta do clone do repositório que está no GH
+
+git clone https://github.com/[usuario do GH]/[nome do diretório].git
+
+//Ex: git clone https://github.com/alercioborges/curso-php-7.git
+//Será criada uma pasta no diretório com o nome do repositório do GH
+//Atualiza o diretório no PC p/ aparecer a pasta criada
+//Faz o download do repositório do GH
+
+//criando a pasta no PC com nome diferente do repositório do GH
+
+git clone https://github.com/[usuario do GH]/[nome do diretório].git [nome da pasta]
+
+//Ex: git clone https://github.com/alercioborges/curso-php-7.git cursophpgh
+
+
+/**************************************************************************/
+
+
+/** criando uma pasta no PC com a estrutura do repositório GH **/
+
+//No diretório do PC que deseja criar a estrutura do repositório GH
+
+git init
+
+//Para confirmar que foi criada a estrutura do repositório GH na pasta do PC,
+//na barra de endereço do windows, insiro o caminho do diretório mais '/.git'
+//exibirá arquivos e pastas ocultas do GH
+//Ex: C:\xampp\htdocs\repositorio-gh\.git
+
+
+/**************************************************************************/
+
+
+/**Envi. pastas/arquivos do diretório do PC c/ estrutura do GH p/ stage area e confirmando as alterações **/
+
+//enviando o arquivo para a stage area (sala de espera)
+//Aguardando confirmação (commit)
+
+git add [nome do arquivo e extenção]
+
+//Ex: git add index.php
+
+//enviando todos os arquivos e pastas de uma só vez para a stage arae
+//incluindo as alterações
+
+git add --all
+
+//Realizando a confirmação das alterações (commit)
+
+git commit -m "Mwnsagem de confirmacao/comentario"
+
+
+/*****************************************************************************/
+
+
+/** Empurrando os arquios e pasta confirmados para o repositório do GH **/
+
+//Defininsdo o servidor de origem
+// A palavra "origin" é uma variavel c/ essa paçavra como padão
+
+git remote add origin https://github.com/[usuario do GH]/[nome do diretório].git
+
+//Definindo o nome do responsável pelo envio (somente visual)
+
+git config --global user.name "[nome simples]"
+
+//Definindo o e=mail do responsável pelo envio (obrigatório ser o mesmo e-mail do cadastro do GH)
+
+git config --global user.email "[e-mail do cadastro do GH]"
+
+//Empurrando os arquios e pasta confirmados para o repositório do GH
+//"main" é a pasta princial / ou "master"
+
+git push origin main
+
+//Após este comando será necessário inserir usuário e senha
+//usuário e senha é o e-mail e senha do cadastro do GH
+
+
+/*****************************************************************************/
+
+/** Trazendos arquivos e pastas e alterações destas do GH para o diretório do PC **/
+
+//"main" ou "master" / diretório do GH
+
+git pull origin main
+
+/*****************************************************************************/
+
+alercioborges@hotmail.com
+Aecolrigh@89
+
+git remote add origin https://github.com/alercioborges/curso-php-7.git
+git config --global user.email "alercioborges@hotmail.com"
+
+
