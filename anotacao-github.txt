@@ -96,4 +96,6 @@ Aecolrigh@89
 git remote add origin https://github.com/alercioborges/curso-php-7.git
 git config --global user.email "alercioborges@hotmail.com"
 
+teste
+
 
