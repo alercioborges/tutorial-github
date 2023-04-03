@@ -50,7 +50,7 @@ git add --all
 
 //Realizando a confirmação das alterações (commit)
 
-git commit -m "Mwnsagem de confirmacao/comentario"
+	
 
 
 /*****************************************************************************/
@@ -58,16 +58,18 @@ git commit -m "Mwnsagem de confirmacao/comentario"
 
 /** Empurrando os arquios e pasta confirmados para o repositório do GH **/
 
-//Defininsdo o servidor de origem caso já não exista
+//Defininsdo o servidor de origem caso não exista
 //A palavra "origin" é uma variavel c/ essa paçavra como padão
 
 git remote add origin https://github.com/[usuario do GH]/[nome do diretório].git
 
 //Definindo o nome do responsável pelo envio (somente visual)
+//Ex: git config --global user.name "Alercio Borges"
 
 git config --global user.name "[nome simples]"
 
 //Definindo o e=mail do responsável pelo envio (obrigatório ser o mesmo e-mail do cadastro do GH)
+//Ex: git config --global user.email "alercioborges@hotmail.com"
 
 git config --global user.email "[e-mail do cadastro do GH]"
 
