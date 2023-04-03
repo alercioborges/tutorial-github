@@ -58,8 +58,8 @@ git commit -m "Mwnsagem de confirmacao/comentario"
 
 /** Empurrando os arquios e pasta confirmados para o repositório do GH **/
 
-//Defininsdo o servidor de origem
-// A palavra "origin" é uma variavel c/ essa paçavra como padão
+//Defininsdo o servidor de origem caso já não exista
+//A palavra "origin" é uma variavel c/ essa paçavra como padão
 
 git remote add origin https://github.com/[usuario do GH]/[nome do diretório].git
 
@@ -93,8 +93,9 @@ git pull origin main
 /*****************************************************************************/
 
 alercioborges@hotmail.com
-Aecolrigh@89
 
 git remote add origin https://github.com/alercioborges/curso-php-7.git
+git remote add origin https://github.com/alercioborges/sistema-corp.git
+
 git config --global user.email "alercioborges@hotmail.com"
 
