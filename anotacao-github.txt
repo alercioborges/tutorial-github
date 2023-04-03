@@ -49,7 +49,7 @@ git add [nome do arquivo e extenção]
 git add --all
 
 //Realizando a confirmação das alterações (commit)
-
+git commit -m "mensagem/comentarop"
 	
 
 
@@ -99,5 +99,9 @@ alercioborges@hotmail.com
 git remote add origin https://github.com/alercioborges/curso-php-7.git
 git remote add origin https://github.com/alercioborges/sistema-corp.git
 
+git add --all
+git commit -m "mensagem/comentarop"
+git config --global user.name "Alercio Borges"
 git config --global user.email "alercioborges@hotmail.com"
+git pull origin main
 
