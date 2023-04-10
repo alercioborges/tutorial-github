@@ -106,3 +106,6 @@ git config --global user.name "Alercio Borges"
 git config --global user.email "alercioborges@hotmail.com"
 git pull origin main
 
+git push origin2 main -f
+
+
