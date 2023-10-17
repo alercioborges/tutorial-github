@@ -106,6 +106,17 @@ git config --global user.email "alercioborges@hotmail.com"
 /*****************************************************************************/
 
 
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/alercioborges/painel.git'
+
+
+alerc@DESKTOP-U2GVAOG MINGW64 /c/xampp/htdocs/painel (master)
+$ git branch -m master main
+
+
+/*****************************************************************************/
+
+
 //error: failed to push some refs to 'https://github.com/.git'
 git push origin main -f
 
